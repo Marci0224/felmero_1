@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.kep{
+    background-color: greenyellow;
+    display: flex;
+    box-shadow: 5px 5px 5px grey;
+    max-width: 250px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-self: center;
+    align-items: end;
+}
+
+.kozep{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+p{
+    text-align: center;
+    
+}
+
+
+#felir{
+    background-color: greenyellow;
+}
+.hirlevel{
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+
+
+#email{
+    margin-bottom: 5px;
+}
+@media screen and (max-width:380px){
+    .container{
+        align-items: center;
+        flex-direction: column;
+    }
+}
